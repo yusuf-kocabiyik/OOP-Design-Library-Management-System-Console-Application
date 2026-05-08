@@ -5,7 +5,10 @@ import entity.Person;
 import entity.concrete.*;
 import entity.enums.BookStatus;
 import entity.enums.Category;
+import org.w3c.dom.ls.LSOutput;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -250,6 +253,7 @@ public class MainLibray {
         System.out.println(myLibrary.getMembers());
         */
 
+///------------------------------------------------------------------------------------
 
         /// KONSOL UYGULAMASI
         Library library = new Library("Merkez Kütüphane");
@@ -568,5 +572,10 @@ public class MainLibray {
         for (Invoice invoice : library.getInvoiceList()) {
             System.out.println(invoice);
         }
+
+
+
     }
+
+
 }
